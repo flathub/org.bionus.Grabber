@@ -1,6 +1,6 @@
 app-id: org.bionus.Grabber
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: 5.15-22.08
 sdk: org.kde.Sdk
 command: Grabber
 rename-icon: grabber
@@ -35,7 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Bionus/imgbrd-grabber.git
-        tag: v7.10.1
+        tag: v7.11.1
+        commit: 13494dc1f632c49546dc78e0c23c2e3fb458dc9e
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
