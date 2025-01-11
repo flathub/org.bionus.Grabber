@@ -35,8 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Bionus/imgbrd-grabber.git
-        tag: v7.12.2
-        commit: 92957544b1c6d2205976b1a4510a89324ba2e9e0
+        tag: v7.13.0
+        commit: 5b8d326f4f29e9fbb89973f4ca1e84624756b475
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
