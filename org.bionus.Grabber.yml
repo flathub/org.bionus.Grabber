@@ -23,7 +23,7 @@ finish-args:
   - --socket=wayland
   - --socket=pulseaudio
   - --device=dri
-  - --filesystem=host
+  - --filesystem=xdg-download
 
 cleanup:
   - /include
