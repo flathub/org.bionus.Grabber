@@ -46,6 +46,4 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
-      - type: patch
-        path: fix-build-errors.patch
       - generated-sources.json
